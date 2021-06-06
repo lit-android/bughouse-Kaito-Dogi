@@ -34,10 +34,10 @@ class ListActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter.addAll(taskList)
 
-        addButton.setOnClickListener {
-            val name = editText.text.toString()
-            taskList.add(Task(name))
-            adapter.addAll(taskList)
-        }
+//        addButton.setOnClickListener {
+//            val name = editText.text.toString()
+//            taskList.add(Task(name))
+//            adapter.addAll(taskList)
+//        }
     }
 }

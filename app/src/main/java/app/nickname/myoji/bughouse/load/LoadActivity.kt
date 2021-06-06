@@ -13,7 +13,7 @@ class LoadActivity : AppCompatActivity() {
 
         val textView: TextView = findViewById(R.id.text_view)
 
-        val sharedPreferences = getSharedPreferences("Third", Context.MODE_PRIVATE)
-        textView.text = sharedPreferences.getString("save", "")
+        val sharedPreferences = getSharedPreferences("Second", Context.MODE_PRIVATE)
+        textView.text = sharedPreferences.getString("SAVE", "")
     }
 }
